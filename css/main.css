@@ -1502,3 +1502,9 @@ section.part8 .copy {
     right: 321px; }
   section.part8 .localisation {
     height: 681px; } }
+
+footer {
+  margin-top: 70px; }
+  footer p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px; }
