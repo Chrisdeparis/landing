@@ -1,0 +1,1394 @@
+@charset "UTF-8";
+/*
+################
+    VARIABLES
+################
+*/
+/*
+################
+    SECTION 1
+################
+*/
+/*
+* — LOGO —
+*/
+.logo {
+  margin-top: 83px;
+  float: left;
+  z-index: 288; }
+
+.l1 {
+  margin-bottom: 100px; }
+
+/*
+* — BACKROUND SECTION 1 —
+*/
+.BG_ {
+  z-index: 229; }
+
+.IMG_ {
+  background-image: url("../img/BG1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: 227; }
+
+/*
+* — HEADER CONTACT —
+*/
+.header-contact {
+  margin-top: 80px; }
+
+.ETRE_RAPPELE_1 {
+  float: right;
+  z-index: 253;
+  width: 200px; }
+
+.NR_TELEPHONE {
+  z-index: 252; }
+
+._01_00_00_00_00 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.091;
+  text-shadow: 0px 1px 0.94px rgba(0, 0, 0, 0.24), 0px 0px 0.98px rgba(0, 0, 0, 0.16);
+  position: relative;
+  top: 15px;
+  text-align: center;
+  z-index: 251; }
+
+.btn_1 {
+  background-color: #1dbee5;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  width: 200px;
+  height: 55px;
+  z-index: 250;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: right;
+  cursor: pointer; }
+
+.ETRE_RAPPELE_2 {
+  z-index: 248;
+  position: relative;
+  top: 16px;
+  margin: auto;
+  text-align: center; }
+
+.icon_phone {
+  float: left;
+  position: relative;
+  left: 20px; }
+
+.ÊTRE_RAPPELÉ {
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.263;
+  text-shadow: 0px 1px 0.94px rgba(0, 0, 0, 0.24), 0px 0px 0.98px rgba(0, 0, 0, 0.16);
+  position: relative;
+  z-index: 246; }
+
+.btn_2 {
+  background-color: #3a73b9;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  width: 202px;
+  height: 55px;
+  z-index: 245;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  float: right; }
+
+/*
+* — TITRE —
+*/
+.DU_STUDIO_AU_4_PIÈCES {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: center;
+  z-index: 281; }
+
+.UN_COUP_DE_COEUR_IMMÉDIAT_À_COLOMBES__ {
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.143;
+  left: 641.848px;
+  top: 328.497px;
+  z-index: 282; }
+
+._4_6_Boulevard_Gambetta__92700_Colombes {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  line-height: 0.778;
+  text-align: center;
+  left: 920.844px;
+  top: 446.87px;
+  z-index: 283; }
+
+.trait {
+  width: 24px;
+  height: 2px;
+  background: #FFF;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+/*
+* — BOUTON DECOUVRIR —
+*/
+.BTN_DÉCOUVRIR_ {
+  padding-top: 241px;
+  z-index: 241;
+  margin-bottom: 30px; }
+
+.FORME_FLECHE_1 {
+  position: relative;
+  top: 9px;
+  cursor: pointer; }
+
+.BTN_ {
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  margin: 0 auto;
+  width: 45px;
+  height: 45px;
+  z-index: 239; }
+
+/*
+################
+    SECTION 2
+################
+*/
+.SOUS_TITRE_ {
+  z-index: 223; }
+
+.UNE_OPPORTUNITÉ_IMMANQUABLE__ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #3a73b9;
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  z-index: 222; }
+
+.Livraison__2ème_Trimestre_2020 {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #3a73b9;
+  line-height: 0.875;
+  z-index: 221;
+  margin-bottom: 60px; }
+
+.VOTRE_3_PIÈCES_À_COLOMBES_À_PARTIR_DE_295_000€_1_ {
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #3a73b9;
+  line-height: 1.143;
+  z-index: 220;
+  margin-bottom: 10px; }
+  .VOTRE_3_PIÈCES_À_COLOMBES_À_PARTIR_DE_295_000€_1_ span {
+    font-size: 10px;
+    position: relative;
+    bottom: 24px; }
+
+.DESCRIPTIF_01 img.tva {
+  float: right;
+  top: 36px;
+  left: 36px;
+  position: relative; }
+
+.BTN_ARROW {
+  float: right;
+  z-index: 194;
+  cursor: pointer; }
+  .BTN_ARROW img {
+    padding: 14px 16px; }
+
+.FORME_FLECHE_ {
+  background-color: #3a73b9;
+  width: 11px;
+  height: 18px;
+  z-index: 193; }
+
+.FORME_FLECHE_ {
+  background-color: #3a73b9;
+  width: 11px;
+  height: 18px;
+  z-index: 192; }
+
+.BTN_ARROW {
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  bottom: 72px;
+  right: 103px;
+  width: 90px;
+  height: 45px;
+  z-index: 191; }
+
+.DESCRIPTIOF_ {
+  margin-top: 85px;
+  z-index: 188;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px; }
+
+.HEADER_ {
+  padding: 40px 65px;
+  z-index: 187; }
+  .HEADER_ img {
+    margin-bottom: 13px; }
+  .HEADER_ .icon-home {
+    margin-bottom: 16px; }
+  .HEADER_ .content {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 40px; }
+  .HEADER_ .bold {
+    font-weight: bold;
+    margin-bottom: 0; }
+  .HEADER_ .t2 {
+    margin-bottom: 25px; }
+  .HEADER_ .trait-pic {
+    position: relative;
+    top: 8px;
+    margin-right: 15px; }
+
+._4_6_GAMBETTA_À_COLOMBES_UNE_RÉSIDENCE_DE_STANDING {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #6e6e6e;
+  font-weight: bold;
+  line-height: 0.944;
+  text-align: center;
+  z-index: 185; }
+
+.La_résidence_4_6_GAMBETTA_se_situe_dans_le_cent {
+  font-size: 16px;
+  font-family: "RobotoSlab";
+  color: #6e6e6e;
+  line-height: 1.875;
+  text-align: left;
+  width: 425px;
+  height: 306px;
+  z-index: 184; }
+
+.BTN_ {
+  z-index: 182; }
+
+.FORME_LIEN_ {
+  border-width: 6.99px;
+  border-color: #279cd5;
+  border-style: solid;
+  width: 10.02px;
+  height: 0;
+  z-index: 181; }
+
+.Un_cadre_de_vie_paisible {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #6e6e6e;
+  line-height: 1.875;
+  z-index: 180; }
+
+.BG_TEXTE_DESCRIPTIF {
+  background-color: white;
+  box-shadow: 0px 1px 24.3px 2.7px rgba(0, 0, 0, 0.11);
+  z-index: 177;
+  padding-bottom: 61px; }
+
+.bg_img {
+  background-color: #3a73b9;
+  z-index: 174; }
+
+.tl {
+  text-align: left; }
+
+.fr {
+  float: right; }
+
+.cit {
+  font-weight: 600; }
+
+.BG_TEXTE_DESCRIPTIF {
+  background-color: white;
+  box-shadow: 0px 1px 24.3px 2.7px rgba(0, 0, 0, 0.11);
+  z-index: 177;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px; }
+
+.content-2 {
+  margin-top: 50px; }
+  .content-2 .bold {
+    font-weight: bold;
+    margin-bottom: 0; }
+  .content-2 ul {
+    padding-left: 20px; }
+  .content-2 .t2 {
+    margin-bottom: 25px; }
+
+._2_COLONNES_TEXTE_ {
+  margin-top: 74px;
+  z-index: 218; }
+
+.TITRE_ {
+  z-index: 217; }
+
+.Découvrez_un_cadre_de_vie_rare_en_plein_coeur_d {
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  color: #6e6e6e;
+  line-height: 1.143;
+  text-align: center;
+  z-index: 216; }
+
+.TWO_COLONNE {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2310px;
+  height: 6200px;
+  z-index: 214; }
+
+.Une_résidence_intimiste_au_style_contemporain__ {
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  color: #6e6e6e;
+  line-height: 1.25;
+  text-align: left;
+  position: absolute;
+  left: 1123.937px;
+  top: 2115.546px;
+  width: 549px;
+  height: 186px;
+  z-index: 213; }
+
+.ONE_COLONNE {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2310px;
+  height: 6200px;
+  z-index: 211; }
+
+.UNE_BULLE_DE_SÉRÉNITÉ_ET_DE_CONFORT {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #6e6e6e;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.944;
+  text-align: left;
+  z-index: 210; }
+
+.UN_QUARTIER_ACCUEILLANT_ET_TRÈS_RECHERCHÉ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #6e6e6e;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.944;
+  text-align: left;
+  z-index: 209; }
+
+li {
+  list-style-image: url(../img/ellipse-quartier.png);
+  font-family: "Roboto Slab", serif;
+  font-size: 16px; }
+
+.l3 {
+  margin-bottom: 100px; }
+
+.layer {
+  z-index: 500; }
+
+@media screen and (min-width: 991px) {
+  .DESCRIPTIF_01 {
+    position: relative;
+    right: 88px;
+    bottom: 80px; } }
+
+@media screen and (max-width: 991px) {
+  .DESCRIPTIF_01 {
+    position: relative;
+    right: 0;
+    bottom: 0; } }
+
+/*
+################
+    SECTION 3
+################
+*/
+.p0 {
+  padding: 0; }
+
+.CALL_BACK_ {
+  margin-top: 60px;
+  z-index: 172; }
+  .CALL_BACK_ img {
+    float: left;
+    margin-right: 10px; }
+
+.TITRE_ {
+  z-index: 171; }
+
+.Être_rappelé_par_un_conseiller {
+  font-size: 33px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+  line-height: 1.143;
+  float: left;
+  margin-bottom: 30px;
+  z-index: 169; }
+
+.PLUS_D_INFORMATIONS__ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  line-height: 1.667;
+  z-index: 168; }
+
+.FORME_ {
+  position: relative;
+  bottom: 12px;
+  z-index: 166; }
+
+.plage_horaire {
+  z-index: 165;
+  float: right; }
+
+.Plage_horaire {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #1dbee5;
+  line-height: 1.875;
+  float: right;
+  font-weight: 600;
+  z-index: 164; }
+  .Plage_horaire img {
+    float: right; }
+
+.FORME_FLECHE_ {
+  background-color: #1dbee5;
+  width: 12px;
+  height: 7px;
+  z-index: 163; }
+
+.nr_telephone {
+  font-weight: 600;
+  z-index: 161; }
+
+.FORME_DIV {
+  background-color: #1dbee5;
+  width: 1px;
+  height: 31px;
+  z-index: 160; }
+
+.Numéro_de_téléphone {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #1dbee5;
+  line-height: 1.875;
+  z-index: 159; }
+
+.FORME_DIV {
+  background-color: #1dbee5;
+  width: 1px;
+  height: 31px;
+  z-index: 160; }
+
+.Numéro_de_téléphone {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #1dbee5;
+  line-height: 1.875;
+  z-index: 159; }
+
+.BTN_VAIDER {
+  z-index: 157;
+  float: right; }
+
+.VALIDER {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.667;
+  float: right;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  z-index: 156; }
+
+.BTN_VALIDER {
+  background-color: #3a73b9;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  max-width: 192px;
+  height: 70px;
+  z-index: 155; }
+
+.BG_FORME_CONTACT {
+  background-color: #fafafa;
+  width: 425px;
+  height: 70px;
+  z-index: 153;
+  float: right;
+  padding: 20px;
+  padding-left: 35px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px; }
+  .BG_FORME_CONTACT img {
+    float: right;
+    position: relative;
+    top: 13px;
+    margin-left: 15px; }
+  .BG_FORME_CONTACT img.pipe {
+    top: 0px;
+    margin-right: 31px; }
+
+.BG_ {
+  background-color: #1dbee5;
+  z-index: 151; }
+
+.bloc {
+  margin-bottom: 60px;
+  height: 115px; }
+
+/*
+################
+    SECTION 4
+################
+*/
+section#part4 .sous-menu {
+  text-align: center;
+  float: left;
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-bottom: 70px;
+  z-index: 500; }
+  section#part4 .sous-menu div.titre {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3a73b9;
+    float: left;
+    text-align: center;
+    margin: 0px 34px; }
+
+section#part4 .BTN_ {
+  z-index: 120; }
+
+section#part4 .PLAN_MASSE {
+  font-size: 16px;
+  color: #3a73b9;
+  line-height: 1.875;
+  font-family: "Open Sans", sans-serif;
+  z-index: 119;
+  padding: 9px;
+  padding-left: 47px;
+  font-weight: 600; }
+
+section#part4 .BTN_4 {
+  background-color: white;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  width: 190px;
+  height: 50px;
+  z-index: 118;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  top: 313px;
+  float: right; }
+
+section#part4 .BG_PLAN_LOCALISATION_ {
+  background-color: #3a73b9;
+  width: 351px;
+  height: 363px;
+  z-index: -116;
+  border-radius: 10px;
+  position: relative;
+  right: 64px;
+  top: 55px; }
+
+section#part4 .ESPACE_DE_VENTE_ {
+  z-index: 62; }
+
+section#part4 .BTN_vente {
+  z-index: 61; }
+
+section#part4 .PLAN_DE_LOCALISATION {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.875;
+  z-index: 60; }
+
+section#part4 .BTN_BG {
+  background-color: #3a73b9;
+  width: 276px;
+  height: 50px;
+  z-index: 59; }
+
+section#part4 .ACCES {
+  z-index: 57; }
+
+section#part4 .BUREAU_DE_VENTE {
+  z-index: 55; }
+
+section#part4 .ESPACE_DE_VENTE_Rendez_vous_de_10h_à_12h30_et_d {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: #515150;
+  font-weight: bold;
+  line-height: 2.182;
+  text-align: left;
+  -moz-transform: matrix(0.99971, 0, 0, 1.0, 0, 0);
+  -webkit-transform: matrix(0.99971, 0, 0, 1.0, 0, 0);
+  -ms-transform: matrix(0.99971, 0, 0, 1.0, 0, 0);
+  width: 237.414px;
+  height: 180.875px;
+  z-index: 54; }
+
+section#part4 .BG_ {
+  background-color: white;
+  width: 276px;
+  height: 306px;
+  z-index: 50; }
+
+section#part4 .BG_ {
+  background-color: white;
+  box-shadow: 0px 1px 24.3px 2.7px rgba(0, 0, 0, 0.11);
+  z-index: 49; }
+
+section#part4 .SÉCURITÉ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #3a73b9;
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: center;
+  z-index: 143;
+  float: left;
+  margin-right: 70px; }
+  section#part4 .SÉCURITÉ img {
+    margin-right: 7px;
+    position: relative;
+    bottom: 2px; }
+
+section#part4 .PARTIES_COMMUNES {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(58, 115, 185, 0.6);
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: center;
+  z-index: 144;
+  float: left;
+  margin-right: 70px; }
+
+section#part4 .PRESTATIONS__INTÉRIEURES_ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(58, 115, 185, 0.6);
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: center;
+  z-index: 145;
+  float: left;
+  margin-right: 70px; }
+
+section#part4 .card {
+  margin-bottom: 50px;
+  background: white;
+  box-shadow: 0px 1px 24.3px 2.7px rgba(0, 0, 0, 0.11);
+  height: 482px;
+  padding: 70px 50px; }
+  section#part4 .card .SÉCURITÉ-card {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #6e6e6e;
+    font-weight: bold; }
+  section#part4 .card .Des_prestations_de_standing {
+    font-size: 42px;
+    font-family: "Open Sans", sans-serif;
+    color: #6e6e6e;
+    line-height: 1.143;
+    font-weight: 600;
+    z-index: 135;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+  section#part4 .card .Résidence_entièrement_clôturée_avec_accès_piéto {
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+    color: #6e6e6e;
+    line-height: 1.375;
+    text-align: left;
+    z-index: 131; }
+  section#part4 .card .securite_note img.icon-note {
+    margin-bottom: 52px; }
+  section#part4 .card .securite_note .base .Résidence_entièrement_close__Porte_palière_équi {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #6e6e6e;
+    line-height: 1.313;
+    font-weight: 600;
+    z-index: 138; }
+  section#part4 .card .securite_note .base div {
+    border-bottom: 8px solid #1dbee5;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10% 10%;
+    display: inline-block;
+    font-weight: 600; }
+  section#part4 .card .securite_note .base .BTN_ARROW {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    position: relative;
+    bottom: -11px;
+    right: 0px;
+    width: 90px;
+    height: 45px;
+    z-index: 191; }
+
+@media screen and (max-width: 991px) {
+  section#part4 .card {
+    height: auto; } }
+
+@media screen and (max-width: 991px) {
+  section#part4 .BG_PLAN_LOCALISATION_ {
+    right: -22px;
+    top: -26px; } }
+
+/*
+################
+    SECTION 5
+################
+*/
+.BG2 {
+  background-image: url("../img/BG_AERATION.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; }
+
+/*
+################
+    SECTION 6
+################
+*/
+.HABITER_ {
+  margin-top: 75px;
+  z-index: 109; }
+
+.TITRE_ {
+  margin-bottom: 40px;
+  z-index: 108; }
+
+.Habiter_ou_investir_3_bons_plans_pour_acheter_a {
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  color: #515150;
+  line-height: 1.143;
+  text-align: center;
+  z-index: 107; }
+  .Habiter_ou_investir_3_bons_plans_pour_acheter_a h3 {
+    font-weight: 600; }
+
+.ICONS_ {
+  z-index: 105; }
+
+.PRET_ZERO {
+  z-index: 104; }
+
+.Empruntez_à_taux_ZÉRO_AVEC_LE_PTZ__3_ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #515150;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  z-index: 102; }
+
+p.ptz {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400; }
+  p.ptz span {
+    font-size: 9px;
+    position: relative;
+    bottom: 6px; }
+
+.under-icons {
+  margin-top: 115px;
+  padding: 0; }
+
+.JUSQU_À_12_000€_1__DE_RÉDUCTION_SUR_LE_PRIX_DE_ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #1dbee5;
+  line-height: 1.333;
+  z-index: 89; }
+  .JUSQU_À_12_000€_1__DE_RÉDUCTION_SUR_LE_PRIX_DE_ p {
+    color: #515150;
+    display: inline; }
+  .JUSQU_À_12_000€_1__DE_RÉDUCTION_SUR_LE_PRIX_DE_ span {
+    position: relative;
+    font-size: 10px;
+    bottom: 6px; }
+
+.FAITES_PARTIE_DES_10_PREMIERS_RÉSERVATAIRES {
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  color: #3a73b9;
+  line-height: 1.143;
+  margin-bottom: 22px;
+  z-index: 88; }
+
+/*
+################
+    SECTION 7
+################
+*/
+.BGTAB {
+  background: #1dbee5;
+  margin-top: 55px; }
+
+.TABLEAU_ {
+  margin-top: 42px; }
+
+.table {
+  margin-top: 40px; }
+
+.tr-pad {
+  padding: 37px; }
+
+.TYPES_D_APPARTEMENTS {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.417;
+  text-align: center;
+  z-index: 83;
+  border-bottom-color: #1dbee5; }
+
+._32_33_m2_avec_terrasse_de_26_38_m2 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 73; }
+
+.STUDIO__Lot_63__ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 70; }
+
+.TABLEAU_ {
+  z-index: 86; }
+
+.__prix_parking_compris_et_dans_la_limite_des_st {
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  color: #adaaaa;
+  line-height: 0.909;
+  text-align: center;
+  z-index: 85; }
+
+.GRILLE_DE_PRIX {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.417;
+  text-align: center;
+  z-index: 84;
+  border-bottom-color: #1dbee5; }
+
+.TEXTE_ {
+  z-index: 82; }
+
+._285_000_€ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 81; }
+
+._294_000_€ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-decoration: line-through;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 80; }
+
+._236_000_€ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 79; }
+
+._242_000_€ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-decoration: line-through;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 78; }
+
+._218_000_€ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 77; }
+
+._221_000_€_ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-decoration: line-through;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 76; }
+
+._61_89_m2_avec_balcon_de_1_63_m2_et_2_37_m2 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 75; }
+
+._42_83_m2_avec_balcon_de_4_03_m2 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 74; }
+
+._32_33_m2_avec_terrasse_de_26_38_m2 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 73; }
+
+._3_PIÈCES__Lot_31__ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 72; }
+
+._2_PIÈCES__lot_32_ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 71; }
+
+.STUDIO__Lot_63__ {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 70; }
+
+.TABLEAU_ {
+  z-index: 68; }
+
+.Forme_679 {
+  border-width: 6.99px;
+  border-color: white;
+  border-style: solid;
+  height: 0;
+  z-index: 67; }
+
+.Forme_679 {
+  border-width: 6.99px;
+  border-color: white;
+  border-style: solid;
+  height: 0;
+  z-index: 66; }
+
+.bg_tableau {
+  background-color: #1dbee5;
+  z-index: 65; }
+
+.asteri {
+  position: relative;
+  top: 54px;
+  color: #adaaaa;
+  font-size: 11px; }
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  padding: 24.5px !important;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd; }
+
+/*
+################
+    SECTION 8
+################
+*/
+section.part8 .FORMULAIRE_ {
+  background: #3a73b9;
+  padding-top: 64px;
+  padding-left: 58px;
+  z-index: 43;
+  border-radius: 10px 10px;
+  margin-top: 185px;
+  padding-bottom: 33px;
+  height: 771px; }
+
+section.part8 .TITRE_ {
+  padding-left: 23px;
+  z-index: 42; }
+
+section.part8 .Contactez_nous {
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.143;
+  z-index: 41; }
+
+section.part8 .DEMANDE_DE_DOCUMENTATION {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  line-height: 1.667;
+  z-index: 40; }
+
+section.part8 .CIVILITÉ {
+  padding-left: 23px;
+  z-index: 38;
+  display: inline-block;
+  margin-bottom: 30px; }
+
+section.part8 .input-group-text div {
+  float: left; }
+
+section.part8 .design-input {
+  float: left; }
+
+section.part8 .Ellipse_519_copie {
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+  position: relative;
+  top: 3px;
+  z-index: 37; }
+
+section.part8 .Ellipse_519 {
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 7px;
+  position: relative;
+  top: 7px;
+  width: 11px;
+  height: 11px;
+  z-index: 36; }
+
+section.part8 .Monsieur {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  z-index: 35; }
+
+section.part8 .Madame {
+  margin-right: 35px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  z-index: 34; }
+
+section.part8 .NOM_PRENOM {
+  z-index: 32; }
+
+section.part8 .John {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  padding: 14px;
+  padding-left: 47px;
+  z-index: 31; }
+
+section.part8 .Votre_nom_ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  z-index: 30;
+  padding: 14px;
+  padding-left: 26px; }
+
+section.part8 .EMAIL_TELÉPHONE {
+  z-index: 28; }
+
+section.part8 .Votre_code_postal {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  padding: 14px;
+  padding-left: 26px;
+  z-index: 27; }
+
+section.part8 .Votre_email_ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  z-index: 26;
+  padding: 14px;
+  padding-left: 26px;
+  width: 85%; }
+
+section.part8 .ADRESSE_EMAIL {
+  z-index: 24; }
+
+section.part8 .Votre_téléphone {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  padding: 14px;
+  padding-left: 26px;
+  z-index: 23; }
+
+section.part8 .MESSAGE {
+  z-index: 21; }
+
+section.part8 .Votre_message_ {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  padding-left: 26px;
+  padding-top: 57px;
+  z-index: 20;
+  margin-right: 15%; }
+
+section.part8 .__Tous_les_champs_sont_obligatoires {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 2.4;
+  z-index: 18; }
+
+section.part8 .btn_envoyer {
+  z-index: 17; }
+
+section.part8 .Envoyer {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  z-index: 16; }
+
+section.part8 .BTN {
+  background-color: #1dbee5;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  width: 173px;
+  height: 50px;
+  z-index: 15; }
+
+section.part8 .FORME_1 {
+  background-color: #2e5b93;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100px;
+  z-index: 13; }
+
+section.part8 .FORME_DIV {
+  background-color: white;
+  width: 1px;
+  height: 31px;
+  z-index: 12; }
+
+section.part8 .FORME_DIV2 {
+  background-color: white;
+  display: inline-block;
+  width: 1px;
+  height: 31px;
+  z-index: 11;
+  position: relative;
+  top: 9px; }
+
+section.part8 .FORME_2 {
+  background-color: #2e5b93;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  z-index: 10;
+  margin-bottom: 27px; }
+
+section.part8 .FORME_3 {
+  background-color: #2e5b93;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  z-index: 9;
+  margin-bottom: 27px; }
+
+section.part8 .FORME_4 {
+  background-color: #264a78;
+  float: right;
+  width: 50%;
+  height: 50px;
+  z-index: 8; }
+
+section.part8 .FORME_5 {
+  background-color: #2e5b93;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  width: 85%;
+  z-index: 7;
+  margin-bottom: 27px; }
+
+section.part8 .group-line {
+  width: 85%; }
+
+section.part8 .BG_ {
+  background-color: #3a73b9;
+  width: 821px;
+  height: 650px;
+  z-index: 6; }
+
+section.part8 .btn_envoyer {
+  z-index: 17; }
+
+section.part8 .Envoyer {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.333;
+  height: 50px;
+  z-index: 16;
+  font-weight: 600;
+  padding: 14px;
+  padding-left: 50px; }
+
+section.part8 .BTN {
+  background-color: #1dbee5;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  float: right;
+  border-radius: 25px 25px;
+  width: 173px;
+  height: 50px;
+  z-index: 15;
+  margin-top: 7px;
+  margin-right: 15%; }
+
+section.part8 .asteri {
+  font-size: 10px;
+  color: #fff; }
+
+section.part8 .ESPACE_DE_VENTE_Rendez_vous_de_10h_à_12h30_et_d {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: #515150;
+  font-weight: bold;
+  line-height: 2.182;
+  text-align: left;
+  margin-bottom: 18px;
+  -moz-transform: matrix(0.99971, 0, 0, 1.0, 0, 0);
+  -webkit-transform: matrix(0.99971, 0, 0, 1.0, 0, 0);
+  -ms-transform: matrix(0.99971, 0, 0, 1.0, 0, 0);
+  width: 260px;
+  z-index: 54;
+  padding-top: 26px; }
+  section.part8 .ESPACE_DE_VENTE_Rendez_vous_de_10h_à_12h30_et_d span {
+    font-weight: 400; }
+
+section.part8 .span {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #515150;
+  width: 242px;
+  margin-bottom: 43px;
+  margin-bottom: -5px; }
+
+section.part8 .localisation {
+  margin-bottom: 50px;
+  background: white;
+  box-shadow: 0px 1px 24.3px 2.7px rgba(0, 0, 0, 0.11);
+  height: 306px;
+  padding: 70px 50px;
+  padding-right: 0px;
+  padding-top: 0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 604px;
+  margin-top: 85px;
+  z-index: 300;
+  position: relative;
+  right: 82px; }
+  section.part8 .localisation .pic-loc {
+    float: right; }
+
+@media screen and (max-width: 991px) {
+  section.part8 .localisation {
+    position: relative;
+    left: 6px; }
+  section.part8 #part4 {
+    height: 1102px !important; }
+  section.part8 section#part4 .BG_PLAN_LOCALISATION_ {
+    position: relative;
+    top: 20px;
+    right: -22px; }
+  section.part8 section#part4 .card {
+    height: 810px; }
+  section.part8 .BTN_4 {
+    position: relative;
+    top: 224px; } }
+
+@media screen and (max-width: 500px) {
+  section.part8 .pic-loc img {
+    position: relative;
+    top: 300px;
+    right: 321px; } }
