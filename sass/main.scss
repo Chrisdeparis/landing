@@ -940,13 +940,15 @@ section#part4{
 }
 @media screen and (max-width: 991px){
     section#part4 .BG_PLAN_LOCALISATION_{
-        right:-22px;
+        margin:auto;
         top: -26px;
     }
 }
 
-@media screen and (max-width:991px){
-    
+@media screen and (max-width: 500px){
+    section#part4 .card .Résidence_entièrement_clôturée_avec_accès_piéto{
+        margin-bottom:30px;
+    }
 }
 
   
@@ -1657,21 +1659,132 @@ section.part8{
         border-top-right-radius: 10px;
         width: 604px;
         margin-top: 85px;
+        margin-bottom: 70px;
         z-index: 300;
         position: relative;
         right: 82px;
         .pic-loc{
             float:right;
-        }
+            }
         
                 
       }
+      .PLAN_DE_LOCALISATION {
+        font-size: 16px;
+        font-family: $font-family;
+        color: rgb(255, 255, 255);
+        line-height: 1.875;
+        z-index: 60;
+      }
+      .BTN_ {
+        
+        z-index: 61;
+      }
+      .PLAN_DE_LOCALISATION {
+        font-size: 16px;
+        font-family: $font-family;
+        color: rgb(255, 255, 255);
+        line-height: 1.875;
+        z-index: 60;
+      }
+      .BTN_ {
+        background-color: #3a73b9;
+        width: 276px;
+        height: 50px;   
+        border-radius:0;     
+        border-bottom-right-radius: 10px;
+        position: relative;
+        bottom: 50px;
+        border: 0;
+        padding: 12px;
+        font-weight: 600;
+        padding-left: 48px;
+      }
+
+      // bouton etre rappellé
+      .NR_TELEPHONE {
+        
+        z-index: 262;
+      }
+      ._01_00_00_00_00 {
+        font-size: 22px;
+        font-family: $font-family;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.091;
+        
+        z-index: 260;
+      }
+      .ÊTRE_RAPPELÉ {
+        font-size: 17px;
+        font-family: $font-family;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.412;
+        text-shadow: 0px 1px 0.94px rgba(0, 0, 0, 0.24),0px 0px 0.98px rgba(0, 0, 0, 0.16);
+        padding: 18px;
+        padding-left: 52px;
+        z-index: 258;
+      }
+      .btn_1 {
+        background-color: rgb(29, 190, 229);
+        box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24),0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+        border-top-left-radius:0px;
+        border-top-right-radius:0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 200px;
+        height: 55px;
+        z-index: 257;
+      }
+      .btn_2 {
+        background-color: rgb(58, 115, 185);
+        box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24),0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 200px;
+        height: 58px;
+        z-index: 256;
+      }
+      .bouton-rappel{
+          width:200px;
+          margin:auto;
+      }
+      
+      .ICON_PHONE_ {
+          float:left;
+          padding: 17px;
+
+      }
+      .logo-beryl{
+          img{
+            margin-top: 45px;
+            margin-left:45px;
+            margin-bottom:45px;
+          }
+       
+      }
+      .copy {
+        font-size: 11px;
+        font-family: $font-family;
+        color: rgb(173, 170, 170);
+        line-height: 0.909;
+        text-align: center;
+        z-index: 45;
+      }
+      
+      
+      
       
       
       @media screen and (max-width: 991px) {
         .localisation {
             position: relative;
-            left: 6px;
+            left: -8px;
         }
         #part4 {
             height: 1102px!important;
@@ -1691,13 +1804,25 @@ section.part8{
      }
      @media screen and (max-width: 500px){
         .pic-loc{
-            img{
+            img {
                 position: relative;
                 top: 300px;
                 right: 321px;
             }
             
         }
+     }
+     @media screen and (max-width: 500px){
+         .pic-loc{
+            div.PLAN_DE_LOCALISATION.BTN_{
+                position: relative;
+                top: 300px;
+                right: 321px;
+            }
+         }
+         .localisation{
+             height:681px;
+         }
      }
 
     

@@ -774,8 +774,12 @@ section#part4 .card {
 
 @media screen and (max-width: 991px) {
   section#part4 .BG_PLAN_LOCALISATION_ {
-    right: -22px;
+    margin: auto;
     top: -26px; } }
+
+@media screen and (max-width: 500px) {
+  section#part4 .card .Résidence_entièrement_clôturée_avec_accès_piéto {
+    margin-bottom: 30px; } }
 
 /*
 ################
@@ -1365,16 +1369,114 @@ section.part8 .localisation {
   border-top-right-radius: 10px;
   width: 604px;
   margin-top: 85px;
+  margin-bottom: 70px;
   z-index: 300;
   position: relative;
   right: 82px; }
   section.part8 .localisation .pic-loc {
     float: right; }
 
+section.part8 .PLAN_DE_LOCALISATION {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.875;
+  z-index: 60; }
+
+section.part8 .BTN_ {
+  z-index: 61; }
+
+section.part8 .PLAN_DE_LOCALISATION {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  line-height: 1.875;
+  z-index: 60; }
+
+section.part8 .BTN_ {
+  background-color: #3a73b9;
+  width: 276px;
+  height: 50px;
+  border-radius: 0;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  bottom: 50px;
+  border: 0;
+  padding: 12px;
+  font-weight: 600;
+  padding-left: 48px; }
+
+section.part8 .NR_TELEPHONE {
+  z-index: 262; }
+
+section.part8 ._01_00_00_00_00 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.091;
+  z-index: 260; }
+
+section.part8 .ÊTRE_RAPPELÉ {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.412;
+  text-shadow: 0px 1px 0.94px rgba(0, 0, 0, 0.24), 0px 0px 0.98px rgba(0, 0, 0, 0.16);
+  padding: 18px;
+  padding-left: 52px;
+  z-index: 258; }
+
+section.part8 .btn_1 {
+  background-color: #1dbee5;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 200px;
+  height: 55px;
+  z-index: 257; }
+
+section.part8 .btn_2 {
+  background-color: #3a73b9;
+  box-shadow: 0px 1px 0.94px 0.06px rgba(0, 0, 0, 0.24), 0px 0px 0.98px 0.02px rgba(0, 0, 0, 0.16);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 200px;
+  height: 58px;
+  z-index: 256; }
+
+section.part8 .bouton-rappel {
+  width: 200px;
+  margin: auto; }
+
+section.part8 .ICON_PHONE_ {
+  float: left;
+  padding: 17px; }
+
+section.part8 .logo-beryl img {
+  margin-top: 45px;
+  margin-left: 45px;
+  margin-bottom: 45px; }
+
+section.part8 .copy {
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  color: #adaaaa;
+  line-height: 0.909;
+  text-align: center;
+  z-index: 45; }
+
 @media screen and (max-width: 991px) {
   section.part8 .localisation {
     position: relative;
-    left: 6px; }
+    left: -8px; }
   section.part8 #part4 {
     height: 1102px !important; }
   section.part8 section#part4 .BG_PLAN_LOCALISATION_ {
@@ -1392,3 +1494,11 @@ section.part8 .localisation {
     position: relative;
     top: 300px;
     right: 321px; } }
+
+@media screen and (max-width: 500px) {
+  section.part8 .pic-loc div.PLAN_DE_LOCALISATION.BTN_ {
+    position: relative;
+    top: 300px;
+    right: 321px; }
+  section.part8 .localisation {
+    height: 681px; } }
