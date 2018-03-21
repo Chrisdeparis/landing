@@ -1508,3 +1508,5 @@ footer {
   footer p {
     font-family: "Open Sans", sans-serif;
     font-size: 10px; }
+  footer p:last-of-type {
+    margin-bottom: 70px; }
