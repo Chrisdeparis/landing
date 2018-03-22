@@ -1192,7 +1192,8 @@ section.part8 .Votre_code_postal {
   line-height: 1.333;
   padding: 14px;
   padding-left: 26px;
-  z-index: 27; }
+  z-index: 27;
+  width: 50%; }
 
 section.part8 .Votre_email_ {
   font-size: 18px;
@@ -1215,6 +1216,9 @@ section.part8 .Votre_téléphone {
   padding: 14px;
   padding-left: 26px;
   z-index: 23; }
+
+section.part8 #telephone {
+  background-color: #2e5b93; }
 
 section.part8 .MESSAGE {
   z-index: 21; }
@@ -1281,6 +1285,7 @@ section.part8 .FORME_2 {
   background-color: #2e5b93;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border: 0;
   height: 50px;
   z-index: 10;
   margin-bottom: 27px; }
@@ -1300,7 +1305,8 @@ section.part8 .FORME_4 {
   width: 50%;
   height: 50px;
   z-index: 8;
-  border: 0; }
+  border: 0;
+  border-left: 1px solid; }
 
 section.part8 .FORME_5 {
   background-color: #2e5b93;

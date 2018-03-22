@@ -1456,6 +1456,7 @@ section.part8{
         padding: 14px;
         padding-left: 26px;
         z-index: 27;
+        width:50%;
       }
       .Votre_email_ {
         font-size: 18px;
@@ -1487,6 +1488,9 @@ section.part8{
         padding-left: 26px;
         z-index: 23;
         
+      }
+      #telephone{
+        background-color: #2e5b93;
       }
       .MESSAGE {
        
@@ -1560,7 +1564,7 @@ section.part8{
         background-color: rgb(46, 91, 147);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        
+        border:0;
         height: 50px;
         z-index: 10;
         margin-bottom: 27px;
@@ -1581,7 +1585,7 @@ section.part8{
         height: 50px;
         z-index: 8;
         border:0;
-        
+        border-left: 1px solid;
       }
       .FORME_5 {
         background-color: rgb(46, 91, 147);
