@@ -1296,7 +1296,8 @@ section.part8 .FORME_4 {
   float: right;
   width: 50%;
   height: 50px;
-  z-index: 8; }
+  z-index: 8;
+  border: 0; }
 
 section.part8 .FORME_5 {
   background-color: #2e5b93;
@@ -1504,6 +1505,20 @@ section.part8 input:checked + label[for="Monsieur"],
 section.part8 input:checked + label[for="Madame"] {
   background-position: 0 0;
   background: url("../img/Ellipse_519.png") no-repeat; }
+
+section.part8 ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+  /* Firefox */ }
+
+section.part8 :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff; }
+
+section.part8 ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff; }
 
 @media screen and (max-width: 991px) {
   section.part8 .localisation {
