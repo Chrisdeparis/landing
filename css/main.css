@@ -455,7 +455,8 @@ li {
   line-height: 1.143;
   float: left;
   margin-bottom: 30px;
-  z-index: 169; }
+  z-index: 169;
+  width: 100%; }
 
 .PLUS_D_INFORMATIONS__ {
   font-size: 18px;
@@ -569,6 +570,18 @@ li {
 .bloc {
   margin-bottom: 60px;
   height: 115px; }
+
+@media (min-width: 800px) {
+  .FORME_ {
+    position: relative;
+    bottom: -8px !important;
+    z-index: 166; } }
+
+@media (min-width: 992px) {
+  .FORME_ {
+    position: relative;
+    bottom: 78px;
+    z-index: 166; } }
 
 /*
 ################
@@ -1473,6 +1486,25 @@ section.part8 .copy {
   text-align: center;
   z-index: 45; }
 
+section.part8 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  margin: 0; }
+
+section.part8 label[for="Madame"], section.part8 label[for="Monsieur"] {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-left: 26px;
+  background: url("../img/Ellipse-519-copie.png") no-repeat;
+  background-position: 0 0;
+  line-height: 24px;
+  cursor: pointer; }
+
+section.part8 input:checked + label[for="Monsieur"],
+section.part8 input:checked + label[for="Madame"] {
+  background-position: 0 0;
+  background: url("../img/Ellipse_519.png") no-repeat; }
+
 @media screen and (max-width: 991px) {
   section.part8 .localisation {
     position: relative;
@@ -1507,6 +1539,7 @@ footer {
   margin-top: 70px; }
   footer p {
     font-family: "Open Sans", sans-serif;
-    font-size: 10px; }
+    font-size: 10px;
+    color: #adaaaa; }
   footer p:last-of-type {
     margin-bottom: 70px; }
