@@ -1258,7 +1258,9 @@ section.part8 .FORME_1 {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   height: 100px;
-  z-index: 13; }
+  z-index: 13;
+  border: 0;
+  width: 85%; }
 
 section.part8 .FORME_DIV {
   background-color: white;
@@ -1287,6 +1289,7 @@ section.part8 .FORME_3 {
   background-color: #2e5b93;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border: 0;
   height: 50px;
   z-index: 9;
   margin-bottom: 27px; }
@@ -1306,7 +1309,8 @@ section.part8 .FORME_5 {
   height: 50px;
   width: 85%;
   z-index: 7;
-  margin-bottom: 27px; }
+  margin-bottom: 27px;
+  border: 0; }
 
 section.part8 .group-line {
   width: 85%; }
@@ -1340,7 +1344,8 @@ section.part8 .BTN {
   height: 50px;
   z-index: 15;
   margin-top: 7px;
-  margin-right: 15%; }
+  margin-right: 15%;
+  cursor: pointer; }
 
 section.part8 .asteri {
   font-size: 10px;

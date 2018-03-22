@@ -50,6 +50,7 @@
                             <div class="BTN_">
                                 <div class="FORME_FLECHE_1">
                                     <img src="img/FORME_FLECHE_.png" alt="">
+                                    <a href="#ancre">Le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +59,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="ancre">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -165,7 +166,7 @@
         <div class="container-fluid BG_">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="">
                         <div class="CALL_BACK_">
                             <div class="TITRE_">
                                 <img src="img/ICON_PHONE_CB.png" alt="">
@@ -174,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 bloc">
+                    <div class="col-md-12 bloc">
                         <div class="FORME_">
                             <div class="BTN_VAIDER">
                                 <div class="BTN_VALIDER VALIDER btn_2">VALIDER</div>
@@ -358,16 +359,20 @@
                             <div class="">
                                 <div class="group-line">
                                     <!-- <div class="FORME_4 John">John</div> -->
-                                    <input type="text" name="" id=""  class="FORME_4 John" placeholder="John">
+                                    <input type="text" name="" id="Nom"  class="FORME_4 John" placeholder="John">
                                     <div class="FORME_5 Votre_nom_">Votre nom*</div>
                                    
                                 </div>
                                 
-                                <div class="FORME_3 Votre_email_">Votre email*</div>
+                                <!-- <div class="FORME_3 Votre_email_">Votre email*</div> -->
+                                <input type="text" name="email" id="email" class="FORME_3 Votre_email_" placeholder="Votre email*">
                             
-                                <div class="FORME_5 Votre_téléphone">Votre téléphone</div>
-                                <div class="FORME_5 Votre_code_postal">Votre code postal</div>
-                                <div class="FORME_1 Votre_message_">Votre message </div>
+                                <!-- <div class="FORME_5 Votre_téléphone">Votre téléphone</div> -->
+                                <input type="text" name="telephone" id="telephone" class="FORME_5 Votre_téléphone" placeholder="Votre téléphone">
+                                <!-- <div class="FORME_5 Votre_code_postal">Votre code postal</div> -->
+                                <input type="text" name="code_postal" id="cp" class="FORME_5 Votre_code_postal" placeholder="Votre code postal">
+                                <!-- <div class="FORME_1 Votre_message_">Votre message </div> -->
+                                <textarea class="FORME_1 Votre_message_" name="message" id=""  placeholder="Votre message "></textarea>
                                 
                             </div>
                         </div>
@@ -418,6 +423,7 @@
                         </div>
                         <div class="copy">
                             © Copyright 2017 - Crea’team - ADN Realty
+                            <a href="#top">lien top</a>
                         </div>
                     </div>
                 </div>               
@@ -441,7 +447,15 @@
             
         </div>
     </footer>
-
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="js/myscript.js"></script>
 </body>
 
 </html>
